@@ -1,6 +1,6 @@
-name: flutter_token
-description: Diagro token library for Flutter
-version: 0.0.1
+name: lib_flutter_token
+description: Library for Flutter applications to encode/decode Diagro tokens
+version: 1.0.0
 homepage: https://www.diagro.be
 publish_to: none
 
