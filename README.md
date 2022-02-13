@@ -1,39 +1,28 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://diagro.be/assets/img/diagro-logo.svg" width="400"></a></p>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+<p align="center">
+<img src="https://img.shields.io/badge/project-lib_flutter_token-yellowgreen" alt="Diagro token library">
+<img src="https://img.shields.io/badge/type-library-informational" alt="Diagro service">
+<img src="https://img.shields.io/badge/flutter-2.0-blueviolet" alt="Flutter">
+</p>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+## Beschrijving
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Deze bibliotheek is nodig om de AT en AAT tokens te maken en te decoderen voor alle Flutter apps.
 
-## Features
+## Development
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+```yaml
+lib_flutter_token:
+    git:
+      url: https://github.com/diagro-git/lib_flutter_token.git
+      ref: ^1.0
 ```
 
-## Additional information
+## Changelog 
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+### V1.0.0
+
+* **Feature**: decode en encode access tokens
+* **Feature**: decode en encode application access tokens
+* **Feature**: decoden geeft een user object terug met company, applications en access rights
