@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:flutter_token/src/permission.dart';
+import 'package:lib_flutter_token/src/permission.dart';
 
 void main() {
   group('Permission', () {

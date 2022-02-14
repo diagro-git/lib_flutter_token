@@ -1,4 +1,4 @@
-import 'package:flutter_token/src/user.dart';
+import 'package:lib_flutter_token/src/user.dart';
 import 'token.dart';
 
 class AuthToken extends Token
