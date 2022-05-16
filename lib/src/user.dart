@@ -73,5 +73,17 @@ class User
     return this;
   }
 
+  bool can(String applicationName, String rightName, String abbillity)
+  {
+    try {
+      return applications
+          .firstWhere((app) => app.name == applicationName)
+          .permissions[rightName]?.can(abbillity) ?? false;
+    }
+    on Error {}
+
+    return false;
+  }
+
 
 }

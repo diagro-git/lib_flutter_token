@@ -60,4 +60,17 @@ class Permission
     return Permission(read: read, create: create, update: update, delete: delete, publish: publish, export: export);
   }
 
+  bool can(String abbillity)
+  {
+    switch(abbillity) {
+      case 'read': return read;
+      case 'create': return create;
+      case 'update': return update;
+      case 'delete': return delete;
+      case 'publish': return publish;
+      case 'export': return export;
+      default: return false;
+    }
+  }
+
 }
